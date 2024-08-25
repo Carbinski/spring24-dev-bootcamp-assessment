@@ -1,3 +1,51 @@
 /* Your Styles Here */
 body{
+    background-color: #E07A5F;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.line-container{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+}
+
+.dashed-line {
+    border-top: 2px dashed #3D405B; 
+    width: 80%;
+    margin-bottom: 20px; 
+}
+
+.image{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.pfp{
+    width: 250px; 
+    height: 250px;
+    border-radius: 50%; 
+    border: 2px solid;
+    border-color: #3D405B;
+}
+
+.center{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+}
+
+.textbox{
+    margin-top: 20px;
+    padding: 15px;
+    width: 60%;
+    background-color: #81B29A;
+    box-shadow: 2px 2px 0px #3D405B;
+}
+
+.text{
+    color: #F4F1DE;
 }
